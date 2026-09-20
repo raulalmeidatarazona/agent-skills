@@ -1,12 +1,13 @@
-# Personal agent skills
+# Personal agent skill
 
-Reusable skills for the AI agents used across my machines. Each skill follows
-the standard directory layout and can be installed with the official `skills`
-CLI:
+This repository contains the one skill customized for my AI agents:
+`create-agent-skill`. It follows the standard directory layout and can be
+installed with the official `skills` CLI:
 
 ```bash
-npx skills add raulalmeidatarazona/agent-skills --skill <name> --global --yes
+npx skills add raulalmeidatarazona/agent-skills --skill create-agent-skill --global --yes
 ```
 
-The dotfiles repository keeps the global installation list and invokes the same
+Upstream skills are installed directly from their original repositories. The
+dotfiles repository keeps the global installation list and invokes the same
 command through `dot-skills`.
